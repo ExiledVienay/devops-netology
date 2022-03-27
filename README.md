@@ -119,7 +119,12 @@ Date:   Wed May 3 22:24:51 2017 -0400
 
 
 
-7. Нет совпадений в файлах в рабочем каталоге репозитория Terraform по ключевому слову `synchronizedWriters`
+7. Автор функции `synchronizedWriters` Martin Atkins, был найден с помощью команды git log -S"func synchronizedWriters(" и затем просмотром коммитов с помощью git show
+
+>commit 5ac311e2a91e381e2f52234668b49ba670aa0fe5
+Author: Martin Atkins <mart@degeneration.co.uk>
+Date:   Wed May 3 16:25:41 2017 -0700
+
 
 
 
